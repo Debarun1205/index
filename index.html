@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Organizer</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <button onclick="openMenu()" id="openMenu" > ☰</button>
+        <div class="menu" id="menu">
+            <button onclick="closeMenu()" id="close" > ✕</button>
+
+            <button onclick="openHome()" id="openHost">Home</button>
+           
+            <button onclick="openEvents()" id="openEvents">Events➤</button>
+
+            <div class="openEvent" id="openEvent">
+
+                <p></p>
+                <button id="openEvents">View All</button>
+                <button id="openEvents">Stocks News</button>
+                <button id="openEvents">Stock Firms</button>
+                <button id="openEvents">Crypto News</button>
+                <button id="openEvents">Fests & Gatherings</button>
+                <button onclick="closeEvents()" id="openEvents">Close</button>
+                <p></p>
+
+            </div>
+
+            <button onclick="openHost()" id="openHost">Stock Exchanges➤</button>
+
+            <div class="openHosts" id="openHosts">
+
+                <p></p>
+                <button id="openEvents">Bombay(BSE)</button>
+                <button id="openEvents">National-Indian(NSE)</button>
+                <button id="openEvents">Copenhagen(CSE)</button>
+                <button id="openEvents">Stockholm(SSE)</button>
+                <button id="openEvents">Tokyo(TSE)</button>
+                <button id="openEvents">New York(NYSE)</button>
+                <button id="openEvents">Hong Kong(HKEX)</button>
+                <button onclick="closeHost()" id="openHost">Close</button>
+                <p></p>
+            </div>
+
+           
+            <button onclick="openInvest()" id="openInvest">Research/Invest➤</button>
+
+            <div class="openInvests" id="openInvests">
+
+                <p></p>
+                <button id="openEvents">Stock Market➤</button>
+                <button id="openEvents">Crypto-Currency➤</button>
+                
+                <button onclick="closeInvest()" id="openInvest">Close</button>
+                <p></p>
+            </div>
+            
+
+            <button onclick="openContact()" id="openHome">Contact Us</button>
+
+            <div class="openContacts" id="openContacts">
+                
+            </div>
+
+    </div>
+    <div class="XYZ" id="XYZ">
+        <h1>Welcome to Stock Organizer</h1>
+        <p>Your one-stop solution for all stock market needs!</p>
+        <p>Open Menu for other options</p>
+        <button onclick="openLogIn()" id="openLogIn">Log In or Sign Up</button>
+
+</body>
+
+</html>

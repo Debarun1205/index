@@ -1,0 +1,262 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.container{
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    background-image: url("bg3.jpg");
+    background-size: cover;
+    display: flex;
+   
+
+}
+
+.menu{
+    display: flex;
+    height: 100%;
+    width: 0px;
+    flex-direction: column;
+    transition: width 0.5s;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    overflow-x: hidden;
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+    transition: background-color 0.5s, transform 0.5s;
+    color:rgb(255, 255, 255)
+}
+
+#openMenu{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    
+    color: white;
+    border: none;
+    border-radius: 50%;
+     transition: background-color 0.5s, transform 0.5s;
+    cursor: pointer;
+
+
+}
+#openMenu:hover{
+     background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: rotate(90deg);
+}
+
+#close{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    
+    color: white;
+    border: none;
+    border-radius: 50%;
+     transition: background-color 0.5s, transform 0.5s;
+    cursor: pointer;
+
+
+}
+
+#close:hover{
+     background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: rotate(-90deg);
+}
+
+#openMenu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+}
+
+#openHome{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.5s, transform 0.5s;
+    color:rgb(255, 255, 255)
+}
+#openHome:hover{
+   background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform:translateY(-10px);
+}
+
+#openContact{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.5s, transform 0.5s;
+    color:rgb(255, 255, 255)
+}
+#openContact:hover{
+   background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform:translateY(-10px);
+}
+
+#openApplication{
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+    transition: background-color 0.5s, transform 0.5s;
+    color:rgb(255, 255, 255)
+}
+#openApplications{
+    width:200px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.5s, transform 0.5s;
+    color:rgb(255, 255, 255)
+    
+}
+#openApplications:hover{
+   background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform:translateY(-10px);
+}
+
+#openEvents{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.5s, transform 0.5s;
+    color:rgb(255, 255, 255)
+}
+#openEvents:hover{
+   background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform:translateY(-10px);
+}
+
+.openEvent{
+    display: flex;
+    height:0px;
+    min-width: 200px;
+    max-width: 400px;
+    flex-direction: column;
+    transition: width 0.5s;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    overflow-x: hidden;
+}
+
+.openHosts{
+    display: flex;
+    height:0px;
+    min-width: 200px;
+    max-width: 400px;
+    flex-direction: column;
+    transition: width 0.5s;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    overflow-x: hidden;
+}
+
+#openHost{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.5s, transform 0.5s;
+    color:rgb(255, 255, 255)
+}
+#openHost:hover{
+   background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform:translateY(-10px);
+}
+
+#openInvest{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.5s, transform 0.5s;
+    color:rgb(255, 255, 255)
+}
+#openInvest:hover{
+   background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform:translateY(-10px);
+}
+
+.openInvests{
+    display: flex;
+    height:0px;
+    min-width: 200px;
+    max-width: 400px;
+    flex-direction: column;
+    transition: width 0.5s;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    overflow-x: hidden;
+}
+
+#XYZ{
+
+    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+#openLogIn{
+    width:200px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.5s, transform 0.5s;
+    color:rgb(255, 255, 255)
+    
+}
+#openLogIn:hover{
+   background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform:translateY(-10px);
+}
