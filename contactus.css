@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    padding: 2rem 1rem;
+    gap: 20px; /* Space between cards */
+}
+
+.contact-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 220px; /* Fixed width for consistent display */
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-card img {
+    width: 100%; /* Image takes full width of the card */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    max-height: 150px; /* Prevents images from getting too large */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+}
+
+.contact-card h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.contact-card p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
